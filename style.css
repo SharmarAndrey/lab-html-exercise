@@ -23,7 +23,7 @@ nav ul {
 	align-items: center;
 }
 
-nav a {
+a {
 	text-decoration: none;
 	color: black;
 }
@@ -31,4 +31,19 @@ nav a {
 .blackHeart {
 	width: 20px;
 	margin-right: 1rem;
+}
+
+.npmLogo {
+	width: 150px;
+}
+.loginLinks {
+	display: flex;
+	gap: 1rem;
+}
+
+.loginLinks > a {
+	color: rgb(146, 146, 146);
+}
+.loginLinks__join {
+	border: 1px solid rgb(146, 146, 146);
 }
